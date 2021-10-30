@@ -1,0 +1,47 @@
+baseURL = "https://visibilityspots.gitlab.io/heinskate/"
+languageCode = "be-nl"
+title = "Hein Skate"
+theme = "hugo-creative-portfolio-theme"
+
+disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+
+[params]
+  # Style options: default (pink), blue, green, pink, red, sea, violet
+  # Use custom.css for your custom styling
+  style = "red"
+  description = "Hein’s skateboarding & shop - Skateboard Initiaties"
+  copyright = "&copy;2015 heinskate"
+  sidebarAbout = [
+    "champagne service on a beer budget",
+  ]
+  email = "formspree@visibilityspots.org"
+
+  # Nav links in the side bar
+  [[params.navlinks]]
+    name = "shop"
+    url = "shop/"
+    home = true
+
+  [[params.navlinks]]
+    name = "workshops"
+    url = "workshops/"
+
+  [[params.navlinks]]
+   name = "events"
+   url = "events/"
+
+  [[params.navlinks]]
+   name = "over"
+   url = "over/"
+
+  [[params.navlinks]]
+   name = "contact"
+   url = "contact/"
+
+  [params.social]
+   facebook      = "https://facebook.com/heinskate/"
+   email         = "marijn.verbruggen@hotmail.com"
+ #  email         = "fromspree@visibilityspots.org"
+   instagram     = "https://instagram.com/heins_skateboarding/"
