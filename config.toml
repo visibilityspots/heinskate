@@ -1,4 +1,4 @@
-baseURL = "https://visibilityspots.gitlab.io/heinskate/"
+baseURL = "https://heinskate.visibilityspots.org"
 languageCode = "be-nl"
 title = "Hein Skate"
 theme = "hugo-creative-portfolio-theme"
